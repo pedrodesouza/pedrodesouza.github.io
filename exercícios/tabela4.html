@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercícios de tabelas</h1>
+    <table>
+           <caption>
+            Bandas Favoritas
+           </caption>
+           <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Bandas</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <th rowspan="5" scope="rowgroup">Mulheres</th>
+                <td>Ana Julia</td>
+                <td>Metallica</td>
+                <td>Iron Maiden</td>
+                <td>Judas Priest</td>
+            </tr>
+            <tr>
+                <td>Beatriz Lopes</td>
+                <td>Slayer</td>
+                <td>Megadeth</td>
+                <td>Anthrax</td>
+            </tr>
+            <tr>
+                <td>Raquel Silva</td>
+                <td>KoRn</td>
+                <td>Deftones</td>
+                <td>System Of A Down</td>
+            </tr>
+            <tr>
+                <td>Micaelly De Lima</td>
+                <td>Cannibal Corpse</td>
+                <td>Sepultura</td>
+                <td>Sarcófago</td>
+            </tr>
+            <tr>
+                <td>Juliane Cardoso</td>
+                <td>Black Sabbath</td>
+                <td>Black Pantera</td>
+                <td>Darkthrone</td>
+            </tr>
+            <tr>
+                <th rowspan="5" scope="rowgroup">Homens</th>
+                <td>Pedro Santigo</td>
+                <td>Death</td>
+                <td>Pantera</td>
+                <td>Municipal Waste</td>
+            </tr>
+            <tr>
+                <td>João Victor</td>
+                <td>Angra</td>
+                <td>Crypta</td>
+                <td>Krisiun</td>
+            </tr>
+            <tr>
+                <td>Enzo De Rocha</td>
+                <td>Mayhem</td>
+                <td>Burzum</td>
+                <td>Coldplay</td>
+            </tr>
+            <tr>
+                <td>Felipe Luis</td>
+                <td>Type O Negative</td>
+                <td>The Cure</td>
+                <td>The Smiths</td>
+            </tr>
+            <tr>
+                <td>Andrei Limeira</td>
+                <td>Opeth</td>
+                <td>Immortal</td>
+                <td>Nirvana</td>
+            </tr>
+           </tbody>
+    </table>
+</body>
+</html>

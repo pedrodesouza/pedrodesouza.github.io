@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: blueviolet;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: aquamarine;
+        }
+
+        thead {
+            background-color: aquamarine;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(43, 226, 223);
+        }
+    </style>
+</head>
+<body>
+    <h1> uso de tabelas grandes</h1>
+    <table>
+        <caption>População das unicadades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>46.065 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.108 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.946 395</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14.873 084</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td>11.443 208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td>10.880 506</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+                <th>total de habitantes</th>
+                <td>0000000</td>
+        </tfoot>
+    </table>
+    <p>Esta é uma lista da população das unidades federativas brasileiras segundo dados divulgados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) em 28 de junho de 2023, com base no Censo de 2022.</p>
+    <img src="/imagens/Mapa_dos_estados_brasileiros_por_população_(2022).svg.png">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime optio eos quam voluptas inventore porro deleniti a explicabo libero at, cupiditate rerum incidunt repellendus facilis temporibus itaque ratione dolores cum!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, et. Atque illo quas ratione repudiandae doloremque quidem accusamus sapiente repellat, beatae porro? Cupiditate reiciendis voluptatibus ipsum amet ipsam architecto facere.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, officia nisi. Est libero perferendis tenetur doloribus architecto assumenda dicta laborum ad, nisi eos quod deleniti cum, nulla quia placeat. Accusamus.</p>
+</body>
+</html>
