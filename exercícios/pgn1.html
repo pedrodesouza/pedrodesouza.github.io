@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site de teste</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            color: black;}
+
+            table {
+            border-collapse: collapse;}
+        
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.nome, col.filmes {
+            background-color: blue;
+        }
+
+        col.grupo {
+            background-color: aquamarine;
+        }
+
+        div#container {
+            overflow-x: auto;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h1>Isso é um teste</h1>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="nome">
+                <col class="grupo" span="2">
+                <col class="filmes">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Filme favorito</th>
+                <th scope="col">Times de Futebol</th>
+                <th scope="col">Sexualidade</th>
+            </tr>
+            <tr>
+                <td>Ana Julia</td>
+                <td>F</td>
+                <td>29</td>
+                <td>Velozes e Furiosos</td>
+                <td>São Paulo
+                </td><td>Heterosexual</td>
+            </tr>
+            <tr>
+                <td>Pedro Henrique</td>
+                <td>M</td>
+                <td>17</td>
+                <td>Clube da Luta</td>
+                <td>São Paulo
+                </td><td>Heterosexual</td>
+            </tr>
+            <tr>
+                <td>Tarcisio Lopez</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Rambo</td>
+                <td>São Paulo
+                </td><td>Heterosexual</td>
+            </tr>
+            <tr>
+                <td>Fernanda Santiago</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Taxi Driver</td>
+                <td>São Paulo
+                </td><td>Heterosexual</td>
+            </tr>
+            <tr>
+                <td>Beraldo Dias</td>
+                <td>M</td>
+                <td>33</td>
+                <td>Poderoso Chefão</td>
+                <td>São Paulo
+                </td><td>Heterosexual</td>
+            </tr>
+        </table>
+    </div> 
+</body>
+</html>
